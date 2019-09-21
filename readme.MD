@@ -25,4 +25,4 @@ WheelOfFateAPI/WheelOfFateClient/ClientApp$ npm install
 WheelOfFateAPI/WheelOfFateClient/ClientApp$ ng serve
 ```
 
-## [License MIT © Rohan Verma](https://rhnvrm.mit-license.org/)
+## [License MIT © JinLim](https://limjinsun.github.io/)
