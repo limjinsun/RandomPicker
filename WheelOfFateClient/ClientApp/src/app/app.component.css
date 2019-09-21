@@ -1,0 +1,35 @@
+﻿
+head, body{
+  height: 100%;
+  width: 100%;
+}
+
+#wrapper{
+  height: 100vh;
+}
+
+.router-outlet-container{
+  padding: 3px;
+}
+
+button {
+  width: 100%;
+  margin: 5px; /* or whatever you like */
+}
+
+.bt-even {
+  /*flex-grow: 1;
+  flex-basis: 0;*/
+  flex: 1;
+  margin-left:2px;
+  margin-right:11px;
+}
+
+.nav-link{
+  padding-bottom: 1px;
+  padding-top: 1px;
+}
+
+.navbar {
+  padding: 0.4rem 1rem;
+}

@@ -1,0 +1,30 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WheelOfFateAPI", "WheelOfFateAPI\WheelOfFateAPI.csproj", "{95D3D569-AE0F-4991-80C0-F193785B54A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WheelOfFateClient", "WheelOfFateClient\WheelOfFateClient.csproj", "{6614464E-508C-4C35-B664-0C40D37B83D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95D3D569-AE0F-4991-80C0-F193785B54A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D3D569-AE0F-4991-80C0-F193785B54A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D3D569-AE0F-4991-80C0-F193785B54A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D3D569-AE0F-4991-80C0-F193785B54A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6614464E-508C-4C35-B664-0C40D37B83D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6614464E-508C-4C35-B664-0C40D37B83D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6614464E-508C-4C35-B664-0C40D37B83D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6614464E-508C-4C35-B664-0C40D37B83D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.StandardHeader = $2
+		$0.VersionControlPolicy = $3
+	EndGlobalSection
+EndGlobal

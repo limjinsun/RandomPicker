@@ -1,0 +1,18 @@
+{
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "api/values",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "WheelOfFateAPI": {
+      "commandName": "Project",
+      "launchUrl": "api/values",
+      "environmentVariables": {},
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  }
+}

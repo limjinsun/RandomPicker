@@ -1,0 +1,34 @@
+﻿<div id="wrapper">
+  <!-- Page Content -->
+  <div id="">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+      <!-- <a href="#"><button class="btn btn-primary" id="">Amigo Loan</button></a> -->
+    
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <div class="navbar-nav mt-2 mt-lg-0 w-100 d-flex">
+          <div class="bt-even">
+            <a href="#"><button type="button" mdbBtn class="btn btn-cyan" mdbWavesEffect>Home</button></a>
+          </div>
+          <div class="bt-even justify-content-center">
+            <a routerLink="pick"><button type="button" mdbBtn color="info" mdbWavesEffect>Wheel of FATE</button></a>
+          </div>
+          <div class="bt-even justify-content-center">
+            <a routerLink="showrecord"><button type="button" mdbBtn color="primary" mdbWavesEffect>Engineer's Details</button></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="router-outlet-container" style="height: calc(100vh - 70px);">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  <!-- /#page-content-wrapper -->
+
+</div>
+<!-- /#wrapper -->

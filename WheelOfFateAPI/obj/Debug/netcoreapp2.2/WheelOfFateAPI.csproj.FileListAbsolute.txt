@@ -1,0 +1,14 @@
+/Users/rainbowtape/Projects/WheelOfFateAPI/WheelOfFateAPI/bin/Debug/netcoreapp2.2/WheelOfFateAPI.deps.json
+/Users/rainbowtape/Projects/WheelOfFateAPI/WheelOfFateAPI/bin/Debug/netcoreapp2.2/WheelOfFateAPI.runtimeconfig.json
+/Users/rainbowtape/Projects/WheelOfFateAPI/WheelOfFateAPI/bin/Debug/netcoreapp2.2/WheelOfFateAPI.runtimeconfig.dev.json
+/Users/rainbowtape/Projects/WheelOfFateAPI/WheelOfFateAPI/bin/Debug/netcoreapp2.2/WheelOfFateAPI.dll
+/Users/rainbowtape/Projects/WheelOfFateAPI/WheelOfFateAPI/bin/Debug/netcoreapp2.2/WheelOfFateAPI.pdb
+/Users/rainbowtape/Projects/WheelOfFateAPI/WheelOfFateAPI/obj/Debug/netcoreapp2.2/WheelOfFateAPI.csprojAssemblyReference.cache
+/Users/rainbowtape/Projects/WheelOfFateAPI/WheelOfFateAPI/obj/Debug/netcoreapp2.2/WheelOfFateAPI.csproj.CoreCompileInputs.cache
+/Users/rainbowtape/Projects/WheelOfFateAPI/WheelOfFateAPI/obj/Debug/netcoreapp2.2/WheelOfFateAPI.RazorAssemblyInfo.cache
+/Users/rainbowtape/Projects/WheelOfFateAPI/WheelOfFateAPI/obj/Debug/netcoreapp2.2/WheelOfFateAPI.RazorAssemblyInfo.cs
+/Users/rainbowtape/Projects/WheelOfFateAPI/WheelOfFateAPI/obj/Debug/netcoreapp2.2/WheelOfFateAPI.AssemblyInfoInputs.cache
+/Users/rainbowtape/Projects/WheelOfFateAPI/WheelOfFateAPI/obj/Debug/netcoreapp2.2/WheelOfFateAPI.AssemblyInfo.cs
+/Users/rainbowtape/Projects/WheelOfFateAPI/WheelOfFateAPI/obj/Debug/netcoreapp2.2/WheelOfFateAPI.RazorTargetAssemblyInfo.cache
+/Users/rainbowtape/Projects/WheelOfFateAPI/WheelOfFateAPI/obj/Debug/netcoreapp2.2/WheelOfFateAPI.dll
+/Users/rainbowtape/Projects/WheelOfFateAPI/WheelOfFateAPI/obj/Debug/netcoreapp2.2/WheelOfFateAPI.pdb

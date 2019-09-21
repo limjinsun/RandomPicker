@@ -1,0 +1,106 @@
+﻿<div class="container">
+
+  <div class="flex-fill justify-content-center align-self-center text-center border">
+    <div class="pickbuttonbox">
+      <button (click)="onClick()" class="flex-fill" style="width:100%; margin-left:2px; margin-right:11px;" mdbBtn type="button" color="info" outline="true"
+        mdbWavesEffect>Pick Engineers for today's rota</button>
+    </div>
+  </div>
+
+  <!-- Content to render when condition is true. -->
+  <div *ngIf="newPair">
+    <div class="d-flex h-100">
+      <div class="row justify-content-center align-self-center w-100">
+
+        <div class="col-xs-12 border">
+
+          <div class="card">
+            <img class="card-img-top" src="assets/images/1.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">{{newPair[0].first_name}} {{newPair[0].last_name}}</h4>
+              <p class="card-text" style="margin-bottom: 0px">Email : {{newPair[0].email}}</p>
+              <p class="card-text">Employee ID Number : {{newPair[0].employeeId}}</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-xs-12 border">
+
+          <div class="card">
+            <img class="card-img-top" src="assets/images/2.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">{{newPair[1].first_name}} {{newPair[1].last_name}}</h4>
+              <p class="card-text" style="margin-bottom: 0px">Email : {{newPair[1].email}}</p>
+              <p class="card-text">Employee ID Number : {{newPair[1].employeeId}}</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Content to render when condition is true. -->
+  <div *ngIf="rotaQue">
+
+    <div class="d-flex border" style="width: 100%">
+      <div class="table-box">
+        <table class="table">
+          <thead class="black white-text">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Today</th>
+              <th scope="col">1Day ago</th>
+              <th scope="col">2Days ago</th>
+              <th scope="col">3Days ago</th>
+              <th scope="col">4Days ago</th>
+              <th scope="col">5Days ago</th>
+              <th scope="col">6Days ago</th>
+              <th scope="col">7Days ago</th>
+              <th scope="col">8Days ago</th>
+              <th scope="col">9Days ago</th>
+              <th scope="col">10Days ago</th>
+              <th scope="col">11Days ago</th>
+              <th scope="col">12Days ago</th>
+              <th scope="col">13Days ago</th>
+              <th scope="col">14Days ago</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Engineer 1</th>
+              <ng-container *ngFor="let que of rotaQue.slice().reverse()">
+                <td>{{que[0].first_name}}</td>
+              </ng-container>
+            </tr>
+            <tr>
+              <th scope="row">Engineer 2</th>
+              <ng-container *ngFor="let que of rotaQue.slice().reverse()">
+                <td>{{que[1].first_name}}</td>
+              </ng-container>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+<!-- 
+
+
+
+<ng-container *ngFor="let group of groups">
+    <tr><td><h2>{{group.name}}</h2></td></tr>
+    <tr *ngFor="let item of group.items"><td>{{item}}</td></tr>
+</ng-container>
+
+
+
+
+
+
+-->

@@ -1,0 +1,40 @@
+﻿.w-100 {
+  width: 120% !important;
+}
+
+.pickbuttonbox{
+  margin: 2rem;
+}
+
+.table-box{
+  margin: 30px;
+  overflow-x:auto;
+}
+
+.table{
+  table-layout: fixed;
+}
+
+.table th, .table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+  width: 150px;
+  text-align: center;
+}
+
+.border{
+  border: 0px !important; 
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  margin: 1.5rem;
+  padding: 0, 2rem;
+  max-width: 400px;
+}

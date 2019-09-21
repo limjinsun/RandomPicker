@@ -1,0 +1,18 @@
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  margin: 1.5rem;
+  padding: 0, 2rem;
+  max-width: 400px;
+}
+
+.border{
+  border: 0px !important; 
+}
+
+.box{
+  margin-top:30px;
+}

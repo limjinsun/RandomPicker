@@ -1,0 +1,35 @@
+﻿<div class="container">
+  <div class="box">
+
+    <div class="d-flex flex-column d-flex flex-column h-100 justify-content-center align-self-center w-100 h-100">
+      <div class="w-100">
+        <ng-select [items]="employees" bindLabel="first_name" placeholder="Select Engineer"
+          [(ngModel)]="selectedEmployee" (change)="onChange()">
+        </ng-select>
+      </div>
+
+      <div class="justify-content-center align-self-center w-100" style="display: flex;">
+        <div class="card">
+          <img class="card-img-top" src="assets/images/1.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">{{engineer.first_name}} {{engineer.last_name}}</h4>
+
+            <div *ngIf="isMale; then thenBlock else elseBlock"></div>
+            <ng-template #thenBlock>
+              <p class="card-text" style="margin-bottom: 0px">Gender : Male</p>
+            </ng-template>
+            <ng-template #elseBlock>
+              <p class="card-text" style="margin-bottom: 0px">Gender : FeMale</p>
+            </ng-template>
+
+            <p class="card-text" style="margin-bottom: 0px">Email : {{engineer.email}}</p>
+            <p class="card-text" style="margin-bottom: 0px">Ppsn : {{engineer.ppsn}}</p>
+
+            <p class="card-text">Employee ID Number : {{engineer.employeeId}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
