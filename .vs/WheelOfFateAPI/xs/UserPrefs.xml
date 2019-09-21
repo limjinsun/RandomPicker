@@ -1,9 +1,19 @@
 ﻿<Properties StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="WheelOfFateAPI/Controllers/RotaController.cs">
+    <Files>
+      <File FileName="WheelOfFateAPI/Controllers/RotaController.cs" Line="34" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="WheelOfFateAPI" expanded="True" selected="True" />
+          <Node name="WheelOfFateAPI" expanded="True">
+            <Node name="WheelOfFateAPI" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="RotaController.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="WheelOfFateClient" expanded="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>

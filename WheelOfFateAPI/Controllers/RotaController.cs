@@ -11,6 +11,7 @@ using WheelOfFateAPI.RotationManagement;
 namespace WheelOfFateAPI.Controllers
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class RotaController : Controller
     {
         [HttpGet]
