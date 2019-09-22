@@ -1,18 +1,36 @@
 ﻿<Properties StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WheelOfFateAPI/Controllers/RotaController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WheelOfFateClient/ClientApp/src/app/show-rotarecord/show-rotarecord.component.html">
     <Files>
       <File FileName="WheelOfFateAPI/Controllers/RotaController.cs" Line="34" Column="1" />
+      <File FileName="WheelOfFateAPI/RotationManagement/RotationManager.cs" Line="101" Column="54" />
+      <File FileName="WheelOfFateAPI/employees.json" Line="1" Column="1" />
+      <File FileName="WheelOfFateClient/ClientApp/src/app/home/home.component.css" Line="1" Column="1" />
+      <File FileName="WheelOfFateClient/ClientApp/src/app/home/home.component.html" Line="25" Column="7" />
+      <File FileName="WheelOfFateClient/ClientApp/src/app/pick-engineer/pick-engineer.component.css" Line="1" Column="1" />
+      <File FileName="WheelOfFateClient/ClientApp/src/app/pick-engineer/pick-engineer.component.html" Line="1" Column="1" />
+      <File FileName="WheelOfFateClient/ClientApp/src/app/show-rotarecord/show-rotarecord.component.html" Line="36" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WheelOfFateAPI" expanded="True">
             <Node name="WheelOfFateAPI" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="RotaController.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="RotationManagement" expanded="True" />
+            </Node>
+            <Node name="WheelOfFateClient" expanded="True">
+              <Node name="ClientApp" expanded="True">
+                <Node name="src" expanded="True">
+                  <Node name="app" expanded="True">
+                    <Node name="home" expanded="True" />
+                    <Node name="pick-engineer" expanded="True" />
+                    <Node name="show-rotarecord" expanded="True">
+                      <Node name="show-rotarecord.component.html" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
               </Node>
             </Node>
-            <Node name="WheelOfFateClient" expanded="True" />
           </Node>
         </State>
       </Pad>
